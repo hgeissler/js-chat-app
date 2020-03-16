@@ -1,0 +1,25 @@
+html {
+  margin: 0 auto;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0 auto;
+  max-width: 600px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#chat-container {
+  height: 500px;
+  border-radius: 2px;
+  border: 2px solid #222;
+  padding: 0 16px;
+  overflow: scroll;
+}
+
+#chat-input {
+  resize: none;
+}
