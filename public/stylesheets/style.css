@@ -17,7 +17,7 @@ body {
   border-radius: 2px;
   border: 2px solid #222;
   padding: 0 16px;
-  overflow: scroll;
+  overflow: auto;
 }
 
 #chat-input {
