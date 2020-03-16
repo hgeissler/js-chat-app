@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JS Chat App</title>
+  <!-- client-side socket.io -->
+  <script src="/socket.io/socket.io.js"></script>
+  <!-- jQuery -->
+  <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+    integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous">
+  </script>
+  <!-- Pfad ab js-chat-app/public (wegen index.js L.12) -->
+  <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+  <div id="chat-container">
+  </div>
+  <textarea draggable="false" name="chat-input" id="chat-input" cols="30" rows="10">
+  </textarea>
+
+  <!-- Pfad ab js-chat-app/public (wegen index.js L.12) -->
+  <script src="/javascripts/chat.js"></script>
+</body>
+
+</html>
