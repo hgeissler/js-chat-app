@@ -24,3 +24,8 @@ app.get("/", (req,res) => res.render("chat"))
 // -----------------------------------------------------------------------------
 // Configure Web Sockets
 // -----------------------------------------------------------------------------
+io.sockets.on("connection", function(socket) {
+  socket.on("chat-message", function(message) {
+    io.sockets.emit("chat-message", message)
+  })
+})
